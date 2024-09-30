@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.mother {
+    border: 10px inset rgb(214, 157, 15);
+    width: 50%;
+    border-radius: 15px;
+
+
+}
+
+.heading {
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+
+
+
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+}
+
+.calender {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+
+}
+
+
+
+@media screen and (max-width:435px) {
+    .mother {
+
+        width: 100%;
+    }
+
+    .father {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30%;
+
+    }
+
+}
+
+
+
+@media screen and (min-width:1890px) {
+    .heading {
+        font-size: xx-large;
+    }
+
+    .clock {
+        font-size: x-large;
+    }
+
+    .calender {
+        font-size: x-large;
+    }
+}
